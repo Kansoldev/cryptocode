@@ -1,5 +1,6 @@
 .hero-heading {
-    color: $primary-color;
+    color: $secondary-color;
+    font-weight: 700;
 }
 
 .about > * {
@@ -11,7 +12,7 @@
     align-self: center;
     text-align: left;
     text-transform: uppercase;
-    color: $secondary-color;
+    color: $primary-color;
     font-size: 50px;
 }
 

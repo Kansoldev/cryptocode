@@ -4,7 +4,6 @@
 }
 
 body {
-    line-height: 1.5;
     font-family: Montserrat, sans-serif !important;
 }
 
@@ -12,16 +11,29 @@ body {
     background-color: $primary-color;
     border-color: $primary-color;
     color: $secondary-color;
+
+    &:hover {
+        background-color: $primary-color;
+        border-color: $primary-color;
+        color: $secondary-color;
+    }
 }
 
 .btn-secondary {
     background-color: $secondary-color;
     border-color: $secondary-color;
     color: $primary-color;
+
+    &:hover {
+        background-color: transparent;
+        border-color: $primary-color;
+        color: $primary-color;
+    }
 }
 
 .btn-primary,
 .btn-secondary {
     border-radius: 10px;
     font-weight: 500;
+    transition: all 0.4s;
 }
