@@ -3,30 +3,39 @@
   font-family: Montserrat;
 }
 body {
-  line-height: 1.5;
   font-family: Montserrat, sans-serif !important;
 }
 
 .btn-primary {
+  background-color: #e2a82a;
+  border-color: #e2a82a;
+  color: #213242;
+}
+.btn-primary:hover {
+  background-color: #e2a82a;
+  border-color: #e2a82a;
+  color: #213242;
+}
+
+.btn-secondary {
   background-color: #213242;
   border-color: #213242;
   color: #e2a82a;
 }
-
-.btn-secondary {
-  background-color: #e2a82a;
+.btn-secondary:hover {
+  background-color: transparent;
   border-color: #e2a82a;
-  color: #213242;
+  color: #e2a82a;
 }
 
 .btn-primary,
 .btn-secondary {
   border-radius: 10px;
   font-weight: 500;
+  transition: all 0.4s;
 }
 
 .sticky-wrapper {
-  position: absolute;
   z-index: 100;
   width: 100%;
   background-color: #fff;
@@ -54,9 +63,6 @@ body {
   top: -5px;
 }
 
-/* .sticky-wrapper .site-navbar .site-logo a {
-    color: #fff;
-} */
 .site-navbar .site-navigation .site-menu {
   margin-bottom: 0;
 }
@@ -112,7 +118,7 @@ body {
 
 .sticky-wrapper .site-navbar .site-menu > li > a:hover,
 .sticky-wrapper .site-navbar .site-menu > li > a.active {
-  color: #213242 !important;
+  color: #e2a82a !important;
 }
 
 .site-navbar .site-navigation .site-menu .active {
@@ -138,6 +144,7 @@ body {
 
 .hero-heading {
   color: #213242;
+  font-weight: 700;
 }
 
 .about > * {
