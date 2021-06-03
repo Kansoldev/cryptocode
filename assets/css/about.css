@@ -1,0 +1,26 @@
+.about-bg {
+    background-image: url("../img/Untitled.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    flex: 1;
+}
+
+.about-bg::before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.65);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.about-bg h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #e2a82a;
+}

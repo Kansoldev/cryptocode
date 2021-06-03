@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Cryptocode</title>
+        <link rel="icon" href="assets/img/favicon.png" />
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="assets/css/fontawesome.css" />
+        <link rel="stylesheet" href="assets/fonts/icomoon/style.css" />
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+        <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <link rel="stylesheet" href="assets/css/about.css" />
+        <link rel="stylesheet" href="assets/css/utilities.css" />
+        <link rel="stylesheet" href="assets/css/footer.css" />
+        <style>
+            @media (min-width: 1200px) {
+                .container {
+                    max-width: 1300px;
+                }
+            }
+
+            .mx-15 {
+                margin: 0 15px;
+            }
+
+            ul {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+            }
+
+            a,
+            a:hover {
+                text-decoration: none;
+            }
+
+            .item_card {
+                flex: 1;
+                height: 500px;
+            }
+
+            .crypto-tags {
+                border: 2px solid #fff;
+                color: #fff;
+                font-size: 1.6rem;
+                border-radius: 6px;
+                min-height: 45px;
+                width: 100px;
+                font-weight: 300;
+                transition: all 0.4s;
+            }
+
+            .crypto-tags:hover {
+                border: 2px solid #e2a82a;
+                color: #e2a82a;
+            }
+
+            .testimonial-container.owl-carousel .owl-item img {
+                width: auto;
+            }
+
+            .owl-theme .owl-dots .owl-dot span {
+                background-color: rgba(218, 218, 255, 1);
+            }
+
+            .owl-theme .owl-dots .owl-dot.active span,
+            .owl-theme .owl-dots .owl-dot:hover span {
+                background-color: rgba(227, 169, 43, 1);
+            }
+
+            .owl-theme .owl-nav.disabled + .owl-dots {
+                margin-top: 40px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header
+            class="
+                site-navbar
+                py-5
+                bg-white
+                js-sticky-header
+                site-navbar-target
+            "
+            role="banner"
+        >
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-6 col-xl-2">
+                        <a href="index.html" class="navbar-brand">
+                            <img
+                                src="assets/img/logo.png"
+                                class="brand-img"
+                                alt="logo"
+                            />
+                        </a>
+                    </div>
+
+                    <div class="col-12 col-md-6 d-none d-xl-block">
+                        <nav
+                            class="
+                                site-navigation
+                                position-relative
+                                text-center
+                            "
+                            role="navigation"
+                        >
+                            <ul
+                                class="
+                                    site-menu
+                                    main-menu
+                                    js-clone-nav
+                                    mr-auto
+                                    d-none d-lg-block
+                                "
+                            >
+                                <li>
+                                    <a href="#" class="nav-link active">Home</a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="nav-link">Discover</a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="nav-link">Topics</a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="nav-link">Contact us</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div
+                        class="
+                            col-12 col-md-2
+                            d-none
+                            pr-0
+                            d-lg-block
+                            text-right
+                        "
+                    >
+                        <button
+                            class="btn btn-secondary"
+                            onclick="window.location='login.html'"
+                        >
+                            Login
+                        </button>
+                    </div>
+
+                    <div
+                        class="col-6 d-inline-block d-xl-none ml-md-0 py-3"
+                        style="position: relative; top: 3px"
+                    >
+                        <a
+                            href="#"
+                            class="site-menu-toggle js-menu-toggle float-right"
+                            ><span class="icon-menu h3"></span
+                        ></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section
+                class="d-flex align-items-center"
+                style="min-height: 600px"
+            >
+                <div class="container">
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col-6">
+                            <h1
+                                class="text-uppercase font-weight-bold"
+                                style="font-size: 43px"
+                            >
+                                Learn
+                                <span class="text-primary"
+                                    >Cryptocurrency the right way</span
+                                >
+                            </h1>
+
+                            <p class="lead my-3" style="font-size: 1.45rem">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Pariatur tempora vitae, nisi
+                                ut unde at. Dolorem nisi quia distinctio quae
+                                ipsam natus at eaque omnis non vitae, hic, vel
+                                sunt.
+                            </p>
+
+                            <form
+                                action=""
+                                class="form-inline"
+                                onsubmit="return false"
+                            >
+                                <input
+                                    type="text"
+                                    name=""
+                                    id=""
+                                    placeholder="Email Address"
+                                    class="form-control w-75 rounded-0"
+                                    style="height: 50px; font-size: 1.4rem"
+                                />
+
+                                <button
+                                    class="btn btn-secondary rounded-0"
+                                    onclick="window.location='signup.html'"
+                                >
+                                    Get Started
+                                </button>
+                            </form>
+                        </div>
+
+                        <div class="col-6 p-0 text-right">
+                            <img
+                                src="assets/img/crypto.png"
+                                class="img-fluid"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section style="margin-top: 50px">
+                <h2
+                    class="text-center my-3 font-weight-bold"
+                    style="font-size: 4rem"
+                >
+                    Crypto Basics?
+                </h2>
+
+                <p
+                    class="text-center"
+                    style="font-weight: 300; font-size: 1.6rem"
+                >
+                    Are you new to crypto?, not for long
+                    <i class="fa fa-long-arrow-alt-right"></i> start with these
+                    guides and explainers
+                </p>
+
+                <div class="container">
+                    <div
+                        class="
+                            row
+                            align-items-center
+                            justify-content-around
+                            flex-nowrap
+                            mx-15
+                        "
+                        style="gap: 3em; overflow: hidden; margin-top: 2.5rem"
+                    >
+                        <div class="item_card">
+                            <div
+                                class="
+                                    d-flex
+                                    align-items-center
+                                    justify-content-center
+                                "
+                                style="background-color: #fafcff; height: 60%"
+                            >
+                                <img
+                                    src="assets/img/beginners.png"
+                                    class="mx-auto d-block"
+                                />
+                            </div>
+
+                            <div class="px-3 py-4 text-center">
+                                <h3
+                                    class="font-weight-bold mb-3"
+                                    style="font-size: 2.5rem"
+                                >
+                                    Beginners Guide
+                                </h3>
+
+                                <p style="font-size: 1.3rem">
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Ullam dolores laudantium
+                                    cum autem totam sapiente molestias
+                                    distinctio magni, maiores veritatis.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="item_card">
+                            <div
+                                class="
+                                    d-flex
+                                    align-items-center
+                                    justify-content-center
+                                "
+                                style="background-color: #fafcff; height: 60%"
+                            >
+                                <img
+                                    src="assets/img/intermediate.png"
+                                    class="mx-auto d-block"
+                                />
+                            </div>
+
+                            <div class="px-3 py-4 text-center">
+                                <h3
+                                    class="font-weight-bold mb-3"
+                                    style="font-size: 2.5rem"
+                                >
+                                    Intermediates Guide
+                                </h3>
+
+                                <p style="font-size: 1.3rem">
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Ullam dolores laudantium
+                                    cum autem totam sapiente molestias
+                                    distinctio magni, maiores veritatis.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="item_card">
+                            <div
+                                class="
+                                    d-flex
+                                    align-items-center
+                                    justify-content-center
+                                "
+                                style="background-color: #fafcff; height: 60%"
+                            >
+                                <img
+                                    src="assets/img/pro.png"
+                                    class="mx-auto d-block"
+                                />
+                            </div>
+
+                            <div class="px-3 py-4 text-center">
+                                <h3
+                                    class="font-weight-bold mb-3"
+                                    style="font-size: 2.5rem"
+                                >
+                                    Professionals Guide
+                                </h3>
+
+                                <p style="font-size: 1.3rem">
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Ullam dolores laudantium
+                                    cum autem totam sapiente molestias
+                                    distinctio magni, maiores veritatis.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="community mt-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img
+                                src="assets/img/community.png"
+                                class="img-fluid"
+                                alt="cryptocode-community"
+                            />
+                        </div>
+
+                        <div class="col-md-6 align-self-center">
+                            <div class="community-text p-4">
+                                <p style="font-size: 20px">
+                                    Join our growing crypto community and get to
+                                    meet our expert team who are ready to help
+                                    you develop your cryptocurrency trading
+                                    skills. We simply just love making trading
+                                    fun and easier for you.
+                                </p>
+
+                                <button
+                                    class="
+                                        btn btn-secondary
+                                        px-4
+                                        py-2
+                                        mt-3
+                                        text-uppercase
+                                        font-weight-bold
+                                    "
+                                    style="
+                                        font-family: Montserrat;
+                                        font-size: 1.4rem;
+                                    "
+                                >
+                                    Join our telegram group
+                                    <i
+                                        class="fab fa-telegram-plane ml-2 fa-2x"
+                                        style="vertical-align: middle"
+                                    ></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section
+                class="vocubularies"
+                style="
+                    margin-top: 100px;
+                    background-color: #213242;
+                    padding: 90px 0;
+                "
+            >
+                <div class="container-fluid">
+                    <h1
+                        class="text-white text-center font-weight-bold"
+                        style="padding-bottom: 60px"
+                    >
+                        Cryptocurrency Vocabulary...
+                    </h1>
+
+                    <div class="container">
+                        <div
+                            class="
+                                row
+                                justify-content-center
+                                align-items-center
+                            "
+                        >
+                            <div class="col-2">
+                                <a
+                                    href="#"
+                                    class="
+                                        d-flex
+                                        align-items-center
+                                        justify-content-center
+                                        crypto-tags
+                                    "
+                                    >Lorem</a
+                                >
+                            </div>
+
+                            <div class="col-2">
+                                <a
+                                    href="#"
+                                    class="
+                                        d-flex
+                                        align-items-center
+                                        justify-content-center
+                                        crypto-tags
+                                    "
+                                    >Lorem</a
+                                >
+                            </div>
+
+                            <div class="col-2">
+                                <a
+                                    href="#"
+                                    class="
+                                        d-flex
+                                        align-items-center
+                                        justify-content-center
+                                        crypto-tags
+                                    "
+                                    >Lorem</a
+                                >
+                            </div>
+
+                            <div class="col-2">
+                                <a
+                                    href="#"
+                                    class="
+                                        d-flex
+                                        align-items-center
+                                        justify-content-center
+                                        crypto-tags
+                                    "
+                                    >Lorem</a
+                                >
+                            </div>
+
+                            <div class="col-2">
+                                <a
+                                    href="#"
+                                    class="
+                                        d-flex
+                                        align-items-center
+                                        justify-content-center
+                                        crypto-tags
+                                    "
+                                    >Lorem</a
+                                >
+                            </div>
+                        </div>
+
+                        <div
+                            class="row justify-content-center"
+                            style="padding: 50px 0"
+                        >
+                            <div class="col-2">
+                                <a
+                                    href="#"
+                                    class="
+                                        d-flex
+                                        align-items-center
+                                        justify-content-center
+                                        crypto-tags
+                                    "
+                                    >Lorem</a
+                                >
+                            </div>
+
+                            <div class="col-2">
+                                <a
+                                    href="#"
+                                    class="
+                                        d-flex
+                                        align-items-center
+                                        justify-content-center
+                                        crypto-tags
+                                    "
+                                    >Lorem</a
+                                >
+                            </div>
+
+                            <div class="col-2">
+                                <a
+                                    href="#"
+                                    class="
+                                        d-flex
+                                        align-items-center
+                                        justify-content-center
+                                        crypto-tags
+                                    "
+                                    >Lorem</a
+                                >
+                            </div>
+
+                            <div class="col-2">
+                                <a
+                                    href="#"
+                                    class="
+                                        d-flex
+                                        align-items-center
+                                        justify-content-center
+                                        crypto-tags
+                                    "
+                                    >Lorem</a
+                                >
+                            </div>
+
+                            <div class="col-6 mt-6 text-center">
+                                <a href="#" class="btn btn-primary py-3 px-5"
+                                    >See More</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="testimonials">
+                <div class="container">
+                    <h1
+                        class="
+                            text-secondary
+                            font-weight-bold
+                            text-center
+                            display-4
+                            py-6
+                        "
+                    >
+                        What people are saying about us...
+                    </h1>
+
+                    <div class="testimonial-container owl-carousel owl-theme">
+                        <!-- FIRST -->
+                        <div>
+                            <div
+                                class="
+                                    d-flex
+                                    w-100
+                                    align-items-center
+                                    justify-content-between
+                                "
+                                style="margin-bottom: 85px"
+                            >
+                                <img
+                                    src="assets/img/testimonial/img.png"
+                                    class="img-fluid"
+                                />
+
+                                <div
+                                    class="
+                                        testimonial-info
+                                        align-items-center
+                                        mt-4
+                                        mx-auto
+                                    "
+                                    style="flex-basis: 34%"
+                                >
+                                    <h1 class="font-weight-bold">
+                                        Ronald Richards
+                                    </h1>
+
+                                    <p style="font-size: 1.8rem">
+                                        In-app exchange is supported by
+                                        ShapeShift, it allows to convert coins
+                                        to each other in the most intuitive and
+                                        easiest way.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div
+                                class="
+                                    d-flex
+                                    w-100
+                                    align-items-center
+                                    justify-content-between
+                                "
+                            >
+                                <img
+                                    src="assets/img/testimonial/img1.png"
+                                    class="order-2 img-fluid"
+                                />
+
+                                <div
+                                    class="
+                                        testimonial-info
+                                        align-items-center
+                                        mt-4
+                                        mx-auto
+                                    "
+                                    style="flex-basis: 34%"
+                                >
+                                    <h1 class="font-weight-bold">
+                                        Esther Howard
+                                    </h1>
+
+                                    <p style="font-size: 1.8rem">
+                                        In-app exchange is supported by
+                                        ShapeShift, it allows to convert coins
+                                        to each other in the most intuitive and
+                                        easiest way.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- SECOND -->
+                        <div class="mt-6">
+                            <div
+                                class="
+                                    d-flex
+                                    w-100
+                                    align-items-center
+                                    justify-content-between
+                                "
+                                style="margin-bottom: 85px"
+                            >
+                                <img src="assets/img/testimonial/img2.png" />
+
+                                <div
+                                    class="
+                                        testimonial-info
+                                        align-items-center
+                                        mt-4
+                                        mx-auto
+                                    "
+                                    style="flex-basis: 34%"
+                                >
+                                    <h1 class="font-weight-bold">
+                                        Jane Cooper
+                                    </h1>
+
+                                    <p style="font-size: 1.8rem">
+                                        In-app exchange is supported by
+                                        ShapeShift, it allows to convert coins
+                                        to each other in the most intuitive and
+                                        easiest way.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div
+                                class="
+                                    d-flex
+                                    w-100
+                                    align-items-center
+                                    justify-content-between
+                                "
+                            >
+                                <img
+                                    src="assets/img/testimonial/img3.png"
+                                    class="order-2"
+                                />
+
+                                <div
+                                    class="
+                                        testimonial-info
+                                        align-items-center
+                                        mt-4
+                                        mx-auto
+                                    "
+                                    style="flex-basis: 34%"
+                                >
+                                    <h1 class="font-weight-bold">
+                                        Brooklyn Simmons
+                                    </h1>
+
+                                    <p style="font-size: 1.8rem">
+                                        In-app exchange is supported by
+                                        ShapeShift, it allows to convert coins
+                                        to each other in the most intuitive and
+                                        easiest way.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- THIRD -->
+                        <div class="mt-6">
+                            <div
+                                class="
+                                    d-flex
+                                    w-100
+                                    align-items-center
+                                    justify-content-between
+                                "
+                                style="margin-bottom: 85px"
+                            >
+                                <img src="assets/img/testimonial/img4.png" />
+
+                                <div
+                                    class="
+                                        testimonial-info
+                                        align-items-center
+                                        mt-4
+                                        mx-auto
+                                    "
+                                    style="flex-basis: 34%"
+                                >
+                                    <h1 class="font-weight-bold">
+                                        Courtney Henry
+                                    </h1>
+
+                                    <p style="font-size: 1.8rem">
+                                        In-app exchange is supported by
+                                        ShapeShift, it allows to convert coins
+                                        to each other in the most intuitive and
+                                        easiest way.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div
+                                class="
+                                    d-flex
+                                    w-100
+                                    align-items-center
+                                    justify-content-between
+                                "
+                            >
+                                <img
+                                    src="assets/img/testimonial/img5.png"
+                                    class="order-2"
+                                />
+
+                                <div
+                                    class="
+                                        testimonial-info
+                                        align-items-center
+                                        mt-4
+                                        mx-auto
+                                    "
+                                    style="flex-basis: 34%"
+                                >
+                                    <h1 class="font-weight-bold">
+                                        Theresa Webb
+                                    </h1>
+
+                                    <p style="font-size: 1.8rem">
+                                        In-app exchange is supported by
+                                        ShapeShift, it allows to convert coins
+                                        to each other in the most intuitive and
+                                        easiest way.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FOURTH -->
+                        <div class="mt-6">
+                            <div
+                                class="
+                                    d-flex
+                                    w-100
+                                    align-items-center
+                                    justify-content-between
+                                "
+                                style="margin-bottom: 85px"
+                            >
+                                <img src="assets/img/testimonial/img6.png" />
+
+                                <div
+                                    class="
+                                        testimonial-info
+                                        align-items-center
+                                        mt-4
+                                        mx-auto
+                                    "
+                                    style="flex-basis: 34%"
+                                >
+                                    <h1 class="font-weight-bold">
+                                        Kathryn Murphy
+                                    </h1>
+
+                                    <p style="font-size: 1.8rem">
+                                        In-app exchange is supported by
+                                        ShapeShift, it allows to convert coins
+                                        to each other in the most intuitive and
+                                        easiest way.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div
+                                class="
+                                    d-flex
+                                    w-100
+                                    align-items-center
+                                    justify-content-between
+                                "
+                            >
+                                <img
+                                    src="assets/img/testimonial/img7.png"
+                                    class="order-2"
+                                />
+
+                                <div
+                                    class="
+                                        testimonial-info
+                                        align-items-center
+                                        mt-4
+                                        mx-auto
+                                    "
+                                    style="flex-basis: 34%"
+                                >
+                                    <h1 class="font-weight-bold">
+                                        Wade Warren
+                                    </h1>
+
+                                    <p style="font-size: 1.8rem">
+                                        In-app exchange is supported by
+                                        ShapeShift, it allows to convert coins
+                                        to each other in the most intuitive and
+                                        easiest way.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer-section">
+            <div class="container">
+                <div class="row justify-content-between mb-4">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="fs-widget">
+                            <h5>About</h5>
+                            <ul>
+                                <li><a href="#">Introducing</a></li>
+                                <li><a href="#">Terms of service</a></li>
+                                <li><a href="#">Privacy policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="fs-widget">
+                            <h5>Contact</h5>
+                            <ul>
+                                <li><a href="#">hello@cryptocode.com</a></li>
+                            </ul>
+
+                            <div class="d-flex align-self-center mt-4">
+                                <a href="" class="footer-icon">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+
+                                <a href="" class="footer-icon">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+
+                                <a href="" class="footer-icon">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+
+                                <a href="" class="footer-icon mr-0">
+                                    <i class="fab fa-reddit"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6 p-0">
+                        <div class="fs-widget">
+                            <h5>Newsletter</h5>
+
+                            <p style="font-size: 1.45rem">
+                                Please enter your email if you want to receive
+                                updates
+                            </p>
+
+                            <form
+                                action=""
+                                class="form-inline mt-3"
+                                onsubmit="return false"
+                            >
+                                <input
+                                    type="text"
+                                    name=""
+                                    id=""
+                                    placeholder="Email Address"
+                                    class="form-control rounded-0"
+                                    style="
+                                        width: 65%;
+                                        height: 50px;
+                                        font-size: 1.4rem;
+                                    "
+                                />
+
+                                <button
+                                    class="btn btn-secondary rounded-0"
+                                    onclick="window.location='signup.html'"
+                                    style="font-size: 1.3rem"
+                                >
+                                    Get Started
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <p style="font-size: 1.2rem">
+                            © 2021 Cryptocode, All rights reserved.
+                        </p>
+                    </div>
+                </div>
+
+                <div
+                    class="row pt-4"
+                    style="border-top: 1px solid rgba(226, 168, 42, 0.2)"
+                >
+                    <div class="col-md-4 p-0">
+                        <img
+                            src="assets/img/logo2.png"
+                            style="max-width: 200px"
+                            alt=""
+                        />
+                    </div>
+
+                    <div
+                        class="
+                            col-md-4
+                            align-self-center
+                            text-center text-white
+                        "
+                    >
+                        <p class="m-0" style="font-size: 13px; opacity: 0.6">
+                            &copy; 2021 Cryptocode, All Rights Reserved.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="assets/js/jquery-3.3.1.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/owl.carousel.min.js"></script>
+        <script src="assets/js/jquery.sticky.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>

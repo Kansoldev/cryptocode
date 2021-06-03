@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Cryptocode</title>
+        <link rel="icon" href="assets/img/favicon.png" />
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="assets/css/fontawesome.css" />
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <link rel="stylesheet" href="assets/css/utilities.css" />
+        <style>
+            @media (min-width: 1200px) {
+                .container {
+                    max-width: 1300px;
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        <header
+            class="
+                site-navbar
+                py-5
+                bg-white
+                js-sticky-header
+                site-navbar-target
+            "
+            role="banner"
+        >
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-6 col-xl-2">
+                        <a href="index.html" class="navbar-brand">
+                            <img
+                                src="assets/img/logo.png"
+                                class="brand-img"
+                                alt="logo"
+                            />
+                        </a>
+                    </div>
+
+                    <div class="col-12 col-md-6 d-none d-xl-block">
+                        <nav
+                            class="
+                                site-navigation
+                                position-relative
+                                text-center
+                            "
+                            role="navigation"
+                        >
+                            <ul
+                                class="
+                                    site-menu
+                                    main-menu
+                                    js-clone-nav
+                                    mr-auto
+                                    d-none d-lg-block
+                                "
+                            >
+                                <li>
+                                    <a href="#" class="nav-link active">Home</a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="nav-link">Discover</a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="nav-link">Topics</a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="nav-link">Contact us</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div
+                        class="
+                            col-12 col-md-2
+                            d-none
+                            pr-0
+                            d-lg-block
+                            text-right
+                        "
+                    >
+                        <button class="btn btn-secondary">Login</button>
+                    </div>
+
+                    <div
+                        class="col-6 d-inline-block d-xl-none ml-md-0 py-3"
+                        style="position: relative; top: 3px"
+                    >
+                        <a
+                            href="#"
+                            class="site-menu-toggle js-menu-toggle float-right"
+                            ><span class="icon-menu h3"></span
+                        ></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="container">
+            <h1 class="text-center display-4 font-weight-bold">Log In</h1>
+
+            <p class="text-center font-18 mt-4 mb-5">Welcome Back, Richards</p>
+
+            <div
+                class="mx-auto d-flex align-items-center"
+                style="
+                    width: 800px;
+                    max-width: 100%;
+                    background-color: rgba(250, 252, 255, 1);
+                    height: 550px;
+                    margin-bottom: 3rem;
+                "
+            >
+                <form
+                    action=""
+                    class="cryptocode-form py-2"
+                    autocomplete="off"
+                    onsubmit="return false"
+                >
+                    <div class="input-wrapper">
+                        <label for="email" class="inputLabel"
+                            >Email Address</label
+                        >
+
+                        <input
+                            class="input100"
+                            type="text"
+                            id="email"
+                            placeholder="tarrotvisuals@gmail.com"
+                        />
+
+                        <span class="focus-input100"></span>
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="password" class="inputLabel"
+                            >Password</label
+                        >
+
+                        <input
+                            class="input100"
+                            type="password"
+                            id="password"
+                            placeholder="Enter your password"
+                        />
+
+                        <span class="focus-input100"></span>
+
+                        <span class="symbol-input100">
+                            <span class="fa fa-eye-slash"></span>
+                        </span>
+                    </div>
+
+                    <span style="font-size: 1.4rem"
+                        ><input
+                            type="checkbox"
+                            style="display: inline-block; margin-right: 10px"
+                        />
+                        Always keep me logged in</span
+                    >
+
+                    <button
+                        class="btn btn-secondary w-100 mt-5"
+                        onclick="window.location='signup.html'"
+                    >
+                        Sign Up
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <script src="assets/js/jquery-3.3.1.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/owl.carousel.min.js"></script>
+        <script src="assets/js/jquery.sticky.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>

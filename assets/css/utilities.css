@@ -1,0 +1,35 @@
+.font-18 {
+    font-size: 1.8rem !important;
+}
+
+.font-20 {
+    font-size: 2rem !important;
+}
+
+.font-22 {
+    font-size: 2.2rem !important;
+}
+
+.font-24 {
+    font-size: 2.4rem !important;
+}
+
+.font-26 {
+    font-size: 2.6rem !important;
+}
+
+.font-28 {
+    font-size: 2.8rem !important;
+}
+
+.font-30 {
+    font-size: 3rem !important;
+}
+
+.mt-6 {
+    margin-top: 6rem;
+}
+
+.py-6 {
+    padding: 6rem 0;
+}

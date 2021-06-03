@@ -1,0 +1,62 @@
+.footer-section {
+    padding: 70px 0 20px;
+    margin-top: 10rem;
+}
+
+.fs-about {
+    margin-bottom: 30px;
+}
+
+.fs-about .fs-logo {
+    margin-bottom: 20px;
+}
+
+.fs-about .fs-logo a {
+    display: inline-block;
+}
+
+.fs-widget h5 {
+    color: #213242;
+    font-weight: 600;
+    margin-bottom: 26px;
+}
+
+.fs-about p {
+    color: #ffffff;
+    line-height: 27px;
+    opacity: 0.7;
+    margin-bottom: 25px;
+}
+
+.fs-widget {
+    margin-bottom: 30px;
+}
+
+.fs-widget h5 {
+    font-size: 2rem;
+}
+
+.fs-widget ul li a {
+    font-size: 1.45rem;
+    color: #213242;
+    line-height: 30px;
+}
+
+.footer-icon {
+    background-color: #213242;
+    border-radius: 100%;
+    font-size: 14px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    margin-right: 1.5rem;
+    text-align: center;
+    line-height: 35px !important;
+}
+
+.footer-icon:hover {
+    color: #fff;
+}
